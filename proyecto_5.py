@@ -18,14 +18,12 @@ from math import factorial
 from scipy import stats as st
 import math as mt
 import matplotlib.pyplot as plt
-from google.colab import drive
-drive.mount('/content/drive')
 
-users_df = pd.read_csv('/content/drive/MyDrive/Archivos TT/Proyecto 5/megaline_users.csv')
-calls_df = pd.read_csv('/content/drive/MyDrive/Archivos TT/Proyecto 5/megaline_calls.csv')
-messages_df = pd.read_csv('/content/drive/MyDrive/Archivos TT/Proyecto 5/megaline_messages.csv')
-internet_df = pd.read_csv('/content/drive/MyDrive/Archivos TT/Proyecto 5/megaline_internet.csv')
-plans_df = pd.read_csv('/content/drive/MyDrive/Archivos TT/Proyecto 5/megaline_plans.csv')
+users_df = pd.read_csv('/workspaces/Megaline/df/megaline_users.csv')
+calls_df = pd.read_csv('/workspaces/Megaline/df/megaline_calls.csv')
+messages_df = pd.read_csv('/workspaces/Megaline/df/megaline_messages.csv')
+internet_df = pd.read_csv('/workspaces/Megaline/df/megaline_internet.csv')
+plans_df = pd.read_csv('/workspaces/Megaline/df/megaline_plans.csv')
 
 users_df.info()
 calls_df.info()
