@@ -1,6 +1,3 @@
-# Aquí tienes un ejemplo de README.md en español, claro y profesional, para tu proyecto:
-
----
 
 # Identificación de la Principal Fuente de Ingresos
 
@@ -35,7 +32,3 @@ Durante el desarrollo del proyecto, mejoré significativamente mi manejo de las 
 1. Clona el repositorio.
 2. Asegúrate de tener instaladas las dependencias necesarias (`pandas`, `numpy`, `matplotlib`, `seaborn`).
 3. Ejecuta el script `proyecto_5.py`.
-
----
-
-¿Te gustaría agregar instrucciones específicas de instalación, ejemplos de código o una sección de resultados?
